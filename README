@@ -1,1 +1,8 @@
 # README
+
+This was supposed to be a repro attempt for GitHub Actions 3.216.0 with a
+specific version of the Cypress Docker image, but it's not a minimally
+reproducible example.
+
+Something must be up with packages, or the runner itself, or something else.
+--------------------------------------------------------------------------------
