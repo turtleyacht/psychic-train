@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN npm install
 
-USER cypress
+USER node
 
 RUN npm run test
