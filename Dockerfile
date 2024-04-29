@@ -4,6 +4,8 @@ COPY . /app
 
 WORKDIR /app
 
+RUN npm uninstall cypress --save-dev
+
 RUN npm install
 
 #USER node
