@@ -20,5 +20,5 @@ jobs:
 
       - run: docker build -t cy --rm --force-rm --no-cache .
 
-      - run: docker run --rm --entrypoint='' sh -c "DEBUG=code-coverage cypress run"
+      - run: docker run --rm --entrypoint='' sh -c "DEBUG=code-coverage npm run test"
 
