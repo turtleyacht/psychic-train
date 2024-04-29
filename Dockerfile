@@ -6,6 +6,6 @@ WORKDIR /app
 
 RUN npm install
 
-USER node
+#USER node
 
 RUN npm run test
