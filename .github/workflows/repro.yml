@@ -9,8 +9,9 @@ jobs:
   repro:
     runs-on: ubuntu-latest
     defaults:
-      shell: bash
-      working-directory: ${{ github.job }}-${{ github.run_number }}
+      run:
+        shell: bash
+        working-directory: ${{ github.job }}-${{ github.run_number }}
 
     steps:
       - uses: actions/checkout@v4.1.4
