@@ -11,4 +11,7 @@ jobs:
         with:
           path: ${{ github.job }}-${{ github.run_number }}
 
-      - run: echo hello world
+      - run: docker build -t cy --rm --force-rm --no-cache .
+
+      - run: docker run --rm --entrypoint='' sh -c "DEBUG=code-coverage cypress run"
+

@@ -1,0 +1,25 @@
+{
+  "name": "psychic-train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtleyacht/psychic-train.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turtleyacht/psychic-train/issues"
+  },
+  "homepage": "https://github.com/turtleyacht/psychic-train#readme",
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.7.0",
+    "cypress": "^12.3.0"
+  }
+}
